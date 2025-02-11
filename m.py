@@ -6,7 +6,7 @@ from pyromod import listen
 import threading
 
 # Telegram bot credentials
-BOT_TOKEN = "7726693883:AAGzaRvdIKCg2-RQ0_HKck-xveyuv3Epg_U"
+BOT_TOKEN = "7726693883:AAGzaRvdIKCRQ0_HKck-xveyuv3Epg_U"
 API_ID = "22407662"
 API_HASH = "437c531b4319d6ee9b260e4681c83cf2"
 
@@ -19,7 +19,7 @@ bc_hdr = {"BCOV-POLICY": BCOV_POLICY}
 # Telegram bot client
 app = Client("careerwill_bot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
-LOG_USER_ID = -1002348850160  # ID for sending logs to a specific user or channel
+LOG_USER_ID = -100234885160  # ID for sending logs to a specific user or channel
 
 async def log_to_user(message):
     """Sends log messages to the specific user."""
